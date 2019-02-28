@@ -32,7 +32,7 @@ def load_image_into_numpy_array(image):
   return np.array(image.getdata()).reshape(
       (im_height, im_width, 3)).astype(np.uint8)
 
-cap = cv2.VideoCapture("./media/test.mp4")
+cap = cv2.VideoCapture("../videos/6614059835535133954.mp4")
 out = None
 
 detection_graph = tf.Graph()
